@@ -51,9 +51,9 @@
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupCap: 100, // 1-200
+      startupVolume: 50, // 0-100
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: true,
       smartSkip: true,
@@ -70,7 +70,7 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 8,
       autodisable: true,
@@ -91,9 +91,9 @@
       motdEnabled: false,
       motdInterval: 5,
       motd: "Temporary Message of the Day",
-      filterChat: true,
+      filterChat: false,
       etaRestriction: false,
-      welcome: true,
+      welcome: false,
       opLink: null,
       rulesLink: null,
       themeLink: null,
@@ -105,9 +105,9 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/MrSpins/custom/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/MrSpins/custom/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/MrSpins/custom/master/blacklists/BANNEDlist.json"
       }
     }));
 
