@@ -105,7 +105,7 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/MrSpins/custom/master/blacklists/NSFWlist.json",
+        NSFW: "https://rawgit.com/MrSpins/custom/master/blacklists/BANNEDlist.json",
         OP: "https://rawgit.com/MrSpins/custom/master/blacklists/OPlist.json",
         BANNED: "https://rawgit.com/MrSpins/custom/master/blacklists/BANNEDlist.json"
       }
