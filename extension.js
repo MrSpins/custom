@@ -33,7 +33,7 @@
             if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
             if (!bot.commands.executable(this.rank, chat)) return void (0);
             else {
-              API.sendChat("/me Testing ww.123.com  play.net");
+              API.sendChat("/me | http://mineheroes.net/ - MineHeroes Site | play.mineheroes.net - Server IP | ts3.mineheroes.net - Ts3 IP | @MineHeroesMC - Twitter |");
             }
           }
         };
